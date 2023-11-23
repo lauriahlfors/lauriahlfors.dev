@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "about-me": "Minusta",
+    "skills": "Osaaminen",
+    "projects": "Projektit",
+    "contact": "Ota yhteyttä"
+  },
+  "views": {
+    "about-me": {
+      "title": "Tietoa minusta",
+      "description": ""
+    },
+    "skills": {
+      "title": "Osaamiseni",
+      "description": ""
+    },
+    "projects": {
+      "title": "Projektini",
+      "description": ""
+    },
+    "contact": {
+      "title": "Ota yhteyttä",
+      "description": ""
+    }
+  }
+}

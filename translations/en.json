@@ -1,0 +1,26 @@
+{
+  "nav": {
+    "about-me": "About me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "views": {
+    "about-me": {
+      "title": "About me",
+      "description": ""
+    },
+    "skills": {
+      "title": "My honed skill",
+      "description": ""
+    },
+    "projects": {
+      "title": "Projektit",
+      "description": ""
+    },
+    "contact": {
+      "title": "Contact me",
+      "description": ""
+    }
+  }
+}
