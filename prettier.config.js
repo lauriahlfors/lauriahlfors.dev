@@ -1,24 +1,23 @@
+// prettier.config.js
 /** @type {import("prettier").Config} */
-const config = {
+export default {
 	useTabs: true,
 	tabWidth: 4,
-	singleQuote: true,
+	singleQuote: false,
 	printWidth: 100,
-	trailingComma: 'es5',
+	trailingComma: "es5",
 	semi: true,
-	proseWrap: 'always',
-	plugins: ['prettier-plugin-svelte', 'prettier-plugin-tailwindcss'],
-	tailwindStylesheet: './src/app.css',
-	tailwindFunctions: ['tv', 'cn', 'cx'],
+	proseWrap: "always",
+	plugins: ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
+	tailwindStylesheet: "./src/app.css",
+	tailwindFunctions: ["clsx", "cva"],
 	tailwindPreserveWhitespace: true,
 	overrides: [
 		{
-			files: '*.svelte',
+			files: "*.svelte",
 			options: {
-				parser: 'svelte'
-			}
-		}
-	]
+				parser: "svelte",
+			},
+		},
+	],
 };
-
-export default config;
